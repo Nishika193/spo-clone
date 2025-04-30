@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+body {
+  background-color: antiquewhite;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  font-family: "Montserrat", sans-serif;
+}
+nav ul li{
+  padding: 0 12px;
+}
+nav ul{
+  display: flex;
+  height: 65px;
+  list-style-type: none;
+  background-color: black;
+color: white;
+align-items: center;
+}
+.brand img{
+  width: 44px;
+  padding:0 8px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+}
+.container{
+  min-height: 70vh;
+  /* 75% of ht */
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 15px;
+  padding: 23px;
+  background-image: url(bg.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+background-position: center;
+}
+.bottom{
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons{
+  margin: 14px;
+  }
+.icons i{
+  cursor: pointer;
+}
+#progressbar{
+  width: 80vw;
+  cursor: pointer ;
+}
+.songItem{
+  height: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(195, 206, 215);
+  color: black;
+  margin: 12px 0;
+  border-radius: 34px;
+ padding: 14px;
+}
+
+.songItem img{
+  width: 43px;
+  margin: 23px 0;
+  border-radius: 34px;
+}
+.timestamp
+{
+margin: 0 23px;
+}
+.timestamp i{
+  cursor: pointer;
+}
+.songItemContainer{
+  margin-top: 74px;
+}
+.songinfo{
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+}
+.songinfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
